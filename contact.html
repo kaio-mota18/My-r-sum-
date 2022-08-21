@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaio Mota</title>
+
+  <!--STYLES-->
+  <link rel="stylesheet" href="styles.css"/>
+
+  <!--FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=PT+Sans+Narrow&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+  <!--Bulma-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"/>    
+    <script src="https://kit.fontawesome.com/00d3e8d565.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!--header-->
+  <header>
+    
+      <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+        <p>
+          <div class="navbar-brand">
+            <a class="navbar-item" href="index.html">
+              <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: Free, open source, and modern CSS framework based on Flexbox" width="112" height="28">
+            </a>
+        
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+          
+          <a class="navigation" href="index.html"> <strong>About me</strong> </a> 
+          <a class="navigation" href="contact.html"> <strong>Contact</strong> </a> 
+        </p>
+      </nav>    
+  </header>
+
+  <!--Body-->
+  <section class="section">    
+    <div class="container">
+      <div class="columns">
+        <div class="column is-3"> 
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img id="profile" src="profile pic.jpg" alt="Placeholder image">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p id="id_fn" class="title is-4">Kaio Mota</p>                  
+                </div>
+              </div>
+          
+              <div class="content">
+                <p id="id_card">                  
+                  <strong>Full-stack Javascript</strong><br>
+                  Learning HTML | CSS | Node.Js<br>
+                </p>
+                <br>
+                <span class="icon-text">
+                  <span class="icon">
+                    <i class="fa-brands fa-github"></i>
+                  </span>
+                  <span>kaio-mota18</span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+        <div class="column is-9">
+          <section class="section">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  Contact me
+                </p>            
+              </header>
+              <div class="card-content">
+                <div class="content">
+                  <form action="kaiomotalu@gmil.com" method="get">
+                    <lable for="email"><strong>Email</strong></lable>
+                    <div class="field">
+                      <p class="control has-icons-left has-icons-right">
+                        <input class="input" type="email" placeholder="Email" required>
+                        <span class="icon is-small is-left">
+                          <i class="fas fa-envelope"></i>
+                        </span>
+                        <span class="icon is-small is-right">
+                          <i class="fas fa-check"></i>
+                        </span>
+                      </p><br>                      
+                    </div>
+                    
+                    <div class="field">
+                      <lable for="Message"><strong>Write your message</strong></lable>
+                      <div class="control">
+                        <textarea class="textarea" placeholder="Type your message" required></textarea>
+                      </div>
+                    </div><br>
+                    <input id="button" type="submit" value="Send">
+                  </form>
+                </div>            
+           </section>          
+        </div>    
+   </section>  
+</body>
+</html>
